@@ -1,3 +1,5 @@
+sample = require('../samples/sample_ticket');
+
 module.exports = {
   key: 'create_ticket',
   noun: 'Ticket',
@@ -70,7 +72,8 @@ module.exports = {
         username: '{{bundle.authData.username}}',
         password: '{{bundle.authData.password}}',
       },
-      url: 'https://9a56-136-185-200-116.ngrok-free.app/ticket',
+      url: 'https://7bec-136-185-200-116.ngrok-free.app/ticket',
     },
+    sample : sample,
   },
 };

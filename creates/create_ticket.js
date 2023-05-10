@@ -1,4 +1,5 @@
 sample = require('../samples/sample_ticket');
+const domains = require('../domains');
 
 module.exports = {
   key: 'create_ticket',
@@ -72,7 +73,7 @@ module.exports = {
         username: '{{bundle.authData.username}}',
         password: '{{bundle.authData.password}}',
       },
-      url: 'https://7bec-136-185-200-116.ngrok-free.app/ticket',
+      url: 'https://aa78-136-185-200-116.ngrok-free.app/ticket',
     },
     sample : sample,
   },

@@ -1,4 +1,5 @@
 const sample = require('../samples/sample_ticket');
+const domains = require('../domains');
 
 module.exports = {
     operation: {
@@ -13,7 +14,7 @@ module.exports = {
             params: {
 
             },
-            url: 'https://7bec-136-185-200-116.ngrok-free.app/ticket',
+            url: 'https://aa78-136-185-200-116.ngrok-free.app/ticket',
         },
         outputFields: [
             {

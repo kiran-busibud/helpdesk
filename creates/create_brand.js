@@ -1,4 +1,5 @@
 sample = require('../samples/sample_brand');
+const domains = require('../domains');
 
 module.exports = {
   key: 'create_brand',
@@ -63,7 +64,7 @@ module.exports = {
         username: '{{bundle.authData.username}}',
         password: '{{bundle.authData.password}}',
       },
-      url: 'https://7bec-136-185-200-116.ngrok-free.app/brand',
+      url: 'https://aa78-136-185-200-116.ngrok-free.app/brand',
     },
     sample : sample,
   },
